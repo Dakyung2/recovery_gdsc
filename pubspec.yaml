@@ -1,0 +1,603 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.00.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons:
+  google_fonts: 
+  flutter_countdown_timer:
+  charts_flutter: 
+  http: 
+  camera: 
+  video_player: 
+  camera_web: 
+  gif_view: 
+  google_sign_in: 
+  intl: 
+  dio: 
+  url_launcher:
+  foundation: 
+  get: 
+  tflite_flutter: 
+  firebase_auth: 
+  cloud_firestore: 
+  firebase_core: 
+  fl_chart: ^0.66.2
+  syncfusion_flutter_charts: ^21.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: 2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/my_move.tflite
+    - assets/page-1/images/exerciseframe.png
+    - assets/page-1/images/testgif.gif
+    - assets/page-1/images/image-12.png
+    - assets/page-1/images/image-12-VYR.png
+    - assets/page-1/images/image-13.png
+    - assets/page-1/images/image-13-Rp9.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/.png
+    - assets/page-1/images/vector-DhF.png
+    - assets/page-1/images/vector-huo.png
+    - assets/page-1/images/-cpM.png
+    - assets/page-1/images/vector-wos.png
+    - assets/page-1/images/vector-feD.png
+    - assets/page-1/images/-XgH.png
+    - assets/page-1/images/vector-cW1.png
+    - assets/page-1/images/vector-wLy.png
+    - assets/page-1/images/-VTb.png
+    - assets/page-1/images/vector-f1F.png
+    - assets/page-1/images/vector-aK7.png
+    - assets/page-1/images/vector-3Fs.png
+    - assets/page-1/images/vector-rtM.png
+    - assets/page-1/images/vector-dLR.png
+    - assets/page-1/images/vector-8Um.png
+    - assets/page-1/images/-qed.png
+    - assets/page-1/images/vector-bYy.png
+    - assets/page-1/images/image-12-rW9.png
+    - assets/page-1/images/vector-cDB.png
+    - assets/page-1/images/vector-km3.png
+    - assets/page-1/images/vector-PVo.png
+    - assets/page-1/images/auto-group-9o6c.png
+    - assets/page-1/images/vector-DPj.png
+    - assets/page-1/images/ellipse-4.png
+    - assets/page-1/images/vector-k8m.png
+    - assets/page-1/images/vector-7V7.png
+    - assets/page-1/images/vector-ZXs.png
+    - assets/page-1/images/vector-Wi1.png
+    - assets/page-1/images/-TdF.png
+    - assets/page-1/images/auto-group-kkat.png
+    - assets/page-1/images/vector-Nay.png
+    - assets/page-1/images/vector-KWD.png
+    - assets/page-1/images/vector-5VP.png
+    - assets/page-1/images/vector-1DF.png
+    - assets/page-1/images/auto-group-wxke.png
+    - assets/page-1/images/vector-rxm.png
+    - assets/page-1/images/vector-4uj.png
+    - assets/page-1/images/e204f703-2b18-4702-a5ba-ba94369e39fe-1-bg.png
+    - assets/page-1/images/ellipse-3.png
+    - assets/page-1/images/union.png
+    - assets/page-1/images/ellipse-6.png
+    - assets/page-1/images/vector-dLH.png
+    - assets/page-1/images/vector-TQZ.png
+    - assets/page-1/images/vector-C1j.png
+    - assets/page-1/images/-X41.png
+    - assets/page-1/images/ellipse-5.png
+    - assets/page-1/images/vector-oGR.png
+    - assets/page-1/images/-jA5.png
+    - assets/page-1/images/vector-gr1.png
+    - assets/page-1/images/-Ecd.png
+    - assets/page-1/images/vector-zbo.png
+    - assets/page-1/images/union-xoX.png
+    - assets/page-1/images/-K8h.png
+    - assets/page-1/images/vector-ewf.png
+    - assets/page-1/images/-237.png
+    - assets/page-1/images/-P8Z.png
+    - assets/page-1/images/vector-wfs.png
+    - assets/page-1/images/union-iRj.png
+    - assets/page-1/images/auto-group-gmo2.png
+    - assets/page-1/images/union-Dho.png
+    - assets/page-1/images/vector-mDX.png
+    - assets/page-1/images/union-9Uy.png
+    - assets/page-1/images/vector-uDF.png
+    - assets/page-1/images/ellipse-7.png
+    - assets/page-1/images/-fG9.png
+    - assets/page-1/images/image-13-Dyo.png
+    - assets/page-1/images/union-TDF.png
+    - assets/page-1/images/vector-TPb.png
+    - assets/page-1/images/vector-1vu.png
+    - assets/page-1/images/vector-Q7o.png
+    - assets/page-1/images/e204f703-2b18-4702-a5ba-ba94369e39fe-1.png
+    - assets/page-1/images/vector-hf3.png
+    - assets/page-1/images/vector-haV.png
+    - assets/page-1/images/union-XdP.png
+    - assets/page-1/images/-8Vb.png
+    - assets/page-1/images/monthly-fill.png
+    - assets/page-1/images/group-26.png
+    - assets/page-1/images/union-BTs.png
+    - assets/page-1/images/vector-gqs.png
+    - assets/page-1/images/vector-ha5.png
+    - assets/page-1/images/-RXb.png
+    - assets/page-1/images/vector-7vD.png
+    - assets/page-1/images/union-vsf.png
+    - assets/page-1/images/-t3o.png
+    - assets/page-1/images/vector-hBb.png
+    - assets/page-1/images/vector-S9B.png
+    - assets/page-1/images/vector-Q61.png
+    - assets/page-1/images/vector-x7X.png
+    - assets/page-1/images/vector-job.png
+    - assets/page-1/images/-rNR.png
+    - assets/page-1/images/vector-QPw.png
+    - assets/page-1/images/union-Y2H.png
+    - assets/page-1/images/vector-6K7.png
+    - assets/page-1/images/ellipse-2.png
+    - assets/page-1/images/union-CN9.png
+    - assets/page-1/images/union-wqX.png
+    - assets/page-1/images/vector-krh.png
+    - assets/page-1/images/group-26-iRT.png
+    - assets/page-1/images/vector-5G1.png
+    - assets/page-1/images/vector-xA1.png
+    - assets/page-1/images/vector-CkV.png
+    - assets/page-1/images/-UNZ.png
+    - assets/page-1/images/bg.png
+    - assets/page-1/images/elipse.png
+    - assets/page-1/images/vector-jtq.png
+    - assets/page-1/images/image-6-bg.png
+    - assets/page-1/images/e204f703-2b18-4702-a5ba-ba94369e39fe-1-dnM.png
+    - assets/page-1/images/bg-h1X.png
+    - assets/page-1/images/union-fqf.png
+    - assets/page-1/images/union-oCq.png
+    - assets/page-1/images/vector-F8y.png
+    - assets/page-1/images/union-syF.png
+    - assets/page-1/images/vector-kHs.png
+    - assets/page-1/images/vector-pS9.png
+    - assets/page-1/images/union-4v9.png
+    - assets/page-1/images/vector-g37.png
+    - assets/page-1/images/image-6-bg-ZfK.png
+    - assets/page-1/images/image-6-bg-7Do.png
+    - assets/page-1/images/image-6-bg-f3b.png
+    - assets/page-1/images/vector-AXw.png
+    - assets/page-1/images/group-26-V8H.png
+    - assets/page-1/images/vector-AWZ.png
+    - assets/page-1/images/union-juw.png
+    - assets/page-1/images/image-6-bg-Qso.png
+    - assets/page-1/images/union-Zp9.png
+    - assets/page-1/images/group-26-Hzm.png
+    - assets/page-1/images/vector-Mt9.png
+    - assets/page-1/images/union-A4u.png
+    - assets/page-1/images/vector-5Yy.png
+    - assets/page-1/images/vector-4U5.png
+    - assets/page-1/images/union-Y2H-7LH.png
+    - assets/page-1/images/union-43f.png
+    - assets/page-1/images/vector-Qku.png
+    - assets/page-1/images/union-j7K.png
+    - assets/page-1/images/bg-ZrM.png
+    - assets/page-1/images/union-pFf.png
+    - assets/page-1/images/screenshot-2024-02-02-at-620-1-bg.png
+    - assets/page-1/images/union-jxZ.png
+    - assets/page-1/images/image-6-bg-8Ff.png
+    - assets/page-1/images/union-SC5.png
+    - assets/page-1/images/image-6-bg-3k9.png
+    - assets/page-1/images/group-26-NfF.png
+    - assets/page-1/images/image-6-bg-QtM.png
+    - assets/page-1/images/vector-SS9.png
+    - assets/page-1/images/vector-E3X.png
+    - assets/page-1/images/vector-kXf.png
+    - assets/page-1/images/group-26-XDX.png
+    - assets/page-1/images/union-vhK.png
+    - assets/page-1/images/vector-N4d.png
+    - assets/page-1/images/union-sBj.png
+    - assets/page-1/images/union-3EM.png
+    - assets/page-1/images/union-NFw.png
+    - assets/page-1/images/union-7Lh.png
+    - assets/page-1/images/vector-X1P.png
+    - assets/page-1/images/ellipse-40.png
+    - assets/page-1/images/group-26-QE9.png
+    - assets/page-1/images/union-QUm.png
+    - assets/page-1/images/vector-Qtd.png
+    - assets/page-1/images/union-wb3.png
+    - assets/page-1/images/image-6-bg-sAM.png
+    - assets/page-1/images/union-9gq.png
+    - assets/page-1/images/image-6-bg-zWH.png
+    - assets/page-1/images/ellipse-41.png
+    - assets/page-1/images/group-21.png
+    - assets/page-1/images/group-21-uFK.png
+    - assets/page-1/images/union-Kos.png
+    - assets/page-1/images/union-5YZ.png
+    - assets/page-1/images/union-G2R.png
+    
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/vector-vbF.png
+    - assets/page-1/images/vector-2Z3.png
+    - assets/page-1/images/vector-Z1F.png
+    - assets/page-1/images/vector-idT.png
+    - assets/page-1/images/vector-N1j.png
+    - assets/page-1/images/.png
+    - assets/page-1/images/vector-bQR.png
+    - assets/page-1/images/vector-29T.png
+    - assets/page-1/images/vector-rAH.png
+    - assets/page-1/images/vector-Kqo.png
+    - assets/page-1/images/vector-sg9.png
+    - assets/page-1/images/vector-rZ3.png
+    - assets/page-1/images/vector-KBK.png
+    - assets/page-1/images/vector-SVB.png
+    - assets/page-1/images/-9MP.png
+    - assets/page-1/images/-TT3.png
+    - assets/page-1/images/auto-group-4qxf.png
+    - assets/page-1/images/vector-mmf.png
+    - assets/page-1/images/vector-CeZ.png
+    - assets/page-1/images/vector-7rD.png
+    - assets/page-1/images/vector-gHj.png
+    - assets/page-1/images/vector-CuK.png
+    - assets/page-1/images/vector-kn1.png
+    - assets/page-1/images/vector-HCy.png
+    - assets/page-1/images/vector-fQR.png
+    - assets/page-1/images/auto-group-xwa9.png
+    - assets/page-1/images/vector-VV7.png
+    - assets/page-1/images/vector-GB7.png
+    - assets/page-1/images/-kxd.png
+    - assets/page-1/images/-G13.png
+    - assets/page-1/images/vector-KM7.png
+    - assets/page-1/images/auto-group-wqj1.png
+    - assets/page-1/images/vector-EFf.png
+    - assets/page-1/images/-BKB.png
+    - assets/page-1/images/union.png
+    - assets/page-1/images/vector-iMK.png
+    - assets/page-1/images/vector-9JM.png
+    - assets/page-1/images/vector-Gfo.png
+    - assets/page-1/images/union-FYy.png
+    - assets/page-1/images/ellipse-5.png
+    - assets/page-1/images/group-26.png
+    - assets/page-1/images/-DQH.png
+    - assets/page-1/images/vector-4Rj.png
+    - assets/page-1/images/vector-AXf.png
+    - assets/page-1/images/union-Nn9.png
+    - assets/page-1/images/vector-xey.png
+    - assets/page-1/images/elipse.png
+    - assets/page-1/images/group-26-5tR.png
+    - assets/page-1/images/vector-tsX.png
+    - assets/page-1/images/group-26-dQ9.png
+    - assets/page-1/images/vector-BwT.png
+    - assets/page-1/images/vector-kzZ.png
+    - assets/page-1/images/union-Qys.png
+    - assets/page-1/images/vector-qob.png
+    - assets/page-1/images/union-r77.png
+    - assets/page-1/images/union-iE1.png
+    - assets/page-1/images/vector-dYZ.png
+    - assets/page-1/images/union-bEV.png
+    - assets/page-1/images/union-vnZ.png
+    - assets/page-1/images/ellipse-2.png
+    - assets/page-1/images/union-bVo.png
+    - assets/page-1/images/-g9s.png
+    - assets/page-1/images/-2Ud.png
+    - assets/page-1/images/vector-7FB.png
+    - assets/page-1/images/group-26-JKF.png
+    - assets/page-1/images/-ccm.png
+    - assets/page-1/images/vector-7LZ.png
+    - assets/page-1/images/vector-vPF.png
+    - assets/page-1/images/vector-vFP.png
+    - assets/page-1/images/union-3jK.png
+    - assets/page-1/images/vector-mFb.png
+    - assets/page-1/images/vector-KRX.png
+    - assets/page-1/images/vector-V57.png
+    - assets/page-1/images/union-VzD.png
+    - assets/page-1/images/-AqT.png
+    - assets/page-1/images/vector-Xg1.png
+    - assets/page-1/images/vector-Zfs.png
+    - assets/page-1/images/vector-Y5s.png
+    - assets/page-1/images/-s89.png
+    - assets/page-1/images/union-2mj.png
+    - assets/page-1/images/vector-oGh.png
+    - assets/page-1/images/vector-TGh.png
+    - assets/page-1/images/union-tcD.png
+    - assets/page-1/images/vector-NXP.png
+    - assets/page-1/images/union-LUD.png
+    - assets/page-1/images/vector-Qpm.png
+    - assets/page-1/images/union-c7X.png
+    - assets/page-1/images/-xww.png
+    - assets/page-1/images/vector-h8q.png
+    - assets/page-1/images/union-ebo.png
+    - assets/page-1/images/ellipse-4.png
+    - assets/page-1/images/union-TGH.png
+    - assets/page-1/images/monthly-fill.png
+    - assets/page-1/images/group-26-bbK.png
+    - assets/page-1/images/ellipse-3.png
+    - assets/page-1/images/union-GAH.png
+    - assets/page-1/images/vector-p3F.png
+    - assets/page-1/images/-sj3.png
+    - assets/page-1/images/union-N3f.png
+    - assets/page-1/images/image-13.png
+    - assets/page-1/images/vector-4Ym.png
+    - assets/page-1/images/union-qfK.png
+    - assets/page-1/images/-PVf.png
+    - assets/page-1/images/image-12.png
+    - assets/page-1/images/vector-vah.png
+    - assets/page-1/images/-tk5.png
+    - assets/page-1/images/image-12-QsP.png
+    - assets/page-1/images/vector-vMB.png
+    - assets/page-1/images/union-fLh.png
+    - assets/page-1/images/vector-3Yq.png
+    - assets/page-1/images/ellipse-41.png
+    - assets/page-1/images/vector-bCH.png
+    - assets/page-1/images/image-13-vVB.png
+    - assets/page-1/images/union-52V.png
+    - assets/page-1/images/-YV3.png
+    - assets/page-1/images/ellipse-7.png
+    - assets/page-1/images/-eff.png
+    - assets/page-1/images/vector-ERT.png
+    - assets/page-1/images/vector-vZ3.png
+    - assets/page-1/images/-2KX.png
+    - assets/page-1/images/vector-Dwb.png
+    - assets/page-1/images/vector-HTb.png
+    - assets/page-1/images/image-6-bg.png
+    - assets/page-1/images/union-XH7.png
+    - assets/page-1/images/ellipse-6.png
+    - assets/page-1/images/union-cv9.png
+    - assets/page-1/images/image-6-bg-8Wq.png
+    - assets/page-1/images/vector-qo3.png
+    - assets/page-1/images/ellipse-40.png
+    - assets/page-1/images/union-Ljo.png
+    - assets/page-1/images/union-rnZ.png
+    - assets/page-1/images/group-21.png
+    - assets/page-1/images/vector-Bpq.png
+    - assets/page-1/images/vector-kd3.png
+    - assets/page-1/images/image-6-bg-7Tb.png
+    - assets/page-1/images/vector-GbP.png
+    - assets/page-1/images/image-13-q8h.png
+    - assets/page-1/images/vector-13B.png
+    - assets/page-1/images/vector-mo3.png
+    - assets/page-1/images/vector-wxR.png
+    - assets/page-1/images/image-6-bg-7c1.png
+    - assets/page-1/images/vector-t6y.png
+    - assets/page-1/images/group-26-SeH.png
+    - assets/page-1/images/image-6-bg-1hP.png
+    - assets/page-1/images/union-mwT.png
+    - assets/page-1/images/union-LzZ.png
+    - assets/page-1/images/vector-7VX.png
+    - assets/page-1/images/image-6-bg-sUh.png
+    - assets/page-1/images/vector-eEZ.png
+    - assets/page-1/images/union-1au.png
+    - assets/page-1/images/vector-BEV.png
+    - assets/page-1/images/vector-Xp9.png
+    - assets/page-1/images/vector-WGm.png
+    - assets/page-1/images/-4ZB.png
+    - assets/page-1/images/union-SAR.png
+    - assets/page-1/images/vector-oWm.png
+    - assets/page-1/images/vector-yAM.png
+    - assets/page-1/images/vector-94q.png
+    - assets/page-1/images/vector-7XT.png
+    - assets/page-1/images/vector-Gv9.png
+    - assets/page-1/images/vector-T5X.png
+    - assets/page-1/images/vector-Ro3.png
+    - assets/page-1/images/vector-C53.png
+    - assets/page-1/images/vector-cUm.png
+    - assets/page-1/images/auto-group-vrut.png
+    - assets/page-1/images/auto-group-2xrh.png
+    - assets/page-1/images/e204f703-2b18-4702-a5ba-ba94369e39fe-1.png
+    - assets/page-1/images/vector-1aV.png
+    - assets/page-1/images/vector-rjX.png
+    - assets/page-1/images/union-VvD.png
+    - assets/page-1/images/vector-mHP.png
+    - assets/page-1/images/vector-x2H.png
+    - assets/page-1/images/vector-gcV.png
+    - assets/page-1/images/union-u8R.png
+    - assets/page-1/images/union-2Gu.png
+    - assets/page-1/images/group-21-YTX.png
+    - assets/page-1/images/image-6-bg-fK3.png
+    - assets/page-1/images/union-KND.png
+    - assets/page-1/images/union-LnR.png
+    - assets/page-1/images/e204f703-2b18-4702-a5ba-ba94369e39fe-1-bg.png
+    - assets/page-1/images/-z2H.png
+    - assets/page-1/images/-VW5.png
+    - assets/page-1/images/union-TGh.png
+    - assets/page-1/images/-X2D.png
+    - assets/page-1/images/-yNM.png
+    - assets/page-1/images/-sch.png
+    - assets/page-1/images/-eHK.png
+    - assets/page-1/images/union-AEH.png
+    - assets/page-1/images/-VXT.png
+    - assets/page-1/images/union-qrD.png
+    - assets/page-1/images/image-6-bg-yed.png
+    - assets/page-1/images/image-6-bg-5iu.png
+    - assets/page-1/images/vector-LtM.png
+    - assets/page-1/images/vector-A9s.png
+    - assets/page-1/images/-Dxy.png
+    - assets/page-1/images/image-6-bg-Tkq.png
+    - assets/page-1/images/-Gzh.png
+    - assets/page-1/images/union-xVT.png
+    - assets/page-1/images/vector-rrH.png
+    - assets/page-1/images/-wKb.png
+    - assets/page-1/images/bg.png
+    - assets/page-1/images/vector-56M.png
+    - assets/page-1/images/vector-FjK.png
+    - assets/page-1/images/vector-CeZ-zB7.png
+    - assets/page-1/images/vector-A5b.png
+    - assets/page-1/images/-6zq.png
+    - assets/page-1/images/vector-JYu.png
+    - assets/page-1/images/-q6m.png
+    - assets/page-1/images/vector-yT3.png
+    - assets/page-1/images/auto-group-qnkv.png
+    - assets/page-1/images/union-KHw.png
+    - assets/page-1/images/vector-pEh.png
+    - assets/page-1/images/e204f703-2b18-4702-a5ba-ba94369e39fe-1-Qbw.png
+    - assets/page-1/images/vector-7p1.png
+    - assets/page-1/images/bg-uhF.png
+    - assets/page-1/images/union-6h3.png
+    - assets/page-1/images/bg-pQd.png
+    - assets/page-1/images/ellipse-2-oRF.png
+    - assets/page-1/images/e204f703-2b18-4702-a5ba-ba94369e39fe-1-J1K.png
+    - assets/page-1/images/ellipse-3-hzM.png
+    - assets/page-1/images/ellipse-7-RHf.png
+    - assets/page-1/images/e204f703-2b18-4702-a5ba-ba94369e39fe-1-bg-LzH.png
+    - assets/page-1/images/e204f703-2b18-4702-a5ba-ba94369e39fe-1-yXT.png
+    - assets/page-1/images/bg-4D3.png
+    - assets/page-1/images/bg-D1P.png
+    - assets/page-1/images/union-7JM.png
+    - assets/page-1/images/group-26-acV.png
+    - assets/page-1/images/ellipse-5-3ws.png
+    - assets/page-1/images/image-13-EsF.png
+    - assets/page-1/images/image-13-SeZ.png
+    - assets/page-1/images/union-RKK.png
+    - assets/page-1/images/ellipse-4-AXo.png
+    - assets/page-1/images/ellipse-6-Fjs.png
+    - assets/page-1/images/image-13-ea9.png
+    - assets/page-1/images/monthly-fill-VCq.png
+    - assets/page-1/images/bg-Xbs.png
+    - assets/page-1/images/union-VtR.png
+    - assets/page-1/images/elipse-uhP.png
+    - assets/page-1/images/union-m3s.png
+    - assets/page-1/images/vector-Kiu.png
+    - assets/page-1/images/group-26-nxm.png
+    - assets/page-1/images/union-7im.png
+    - assets/page-1/images/image-6-bg-JVj.png
+    - assets/page-1/images/union-LTF.png
+    - assets/page-1/images/vector-FM7.png
+    - assets/page-1/images/vector-DjB.png
+    - assets/page-1/images/image-6-bg-9ZF.png
+    - assets/page-1/images/image-6-bg-jtH.png
+    - assets/page-1/images/vector-eRs.png
+    - assets/page-1/images/group-26-PsK.png
+    - assets/page-1/images/union-uG9.png
+    - assets/page-1/images/vector-FHf.png
+    - assets/page-1/images/vector-DGR.png
+    - assets/page-1/images/vector-88M.png
+    - assets/page-1/images/union-tNR.png
+    - assets/page-1/images/vector-Kpy.png
+    - assets/page-1/images/vector-oty.png
+    - assets/page-1/images/union-tCu.png
+    - assets/page-1/images/vector-RnM.png
+    - assets/page-1/images/union-UBo.png
+    - assets/page-1/images/vector-raH.png
+    - assets/page-1/images/vector-z9j.png
+    - assets/page-1/images/vector-pwf.png
+    - assets/page-1/images/union-B9X.png
+    - assets/page-1/images/union-TwT.png
+    - assets/page-1/images/union-yB3.png
+    - assets/page-1/images/image-6-bg-kPP.png
+    - assets/page-1/images/group-26-MSD.png
+    - assets/page-1/images/vector-cdT.png
+    - assets/page-1/images/union-MGR.png
+    - assets/page-1/images/union-RWD.png
+    - assets/page-1/images/group-26-pzZ.png
+    - assets/page-1/images/vector-oeM.png
+    - assets/page-1/images/vector-AQu.png
+    - assets/page-1/images/union-Ujf.png
+    - assets/page-1/images/image-6-bg-mxy.png
+    - assets/page-1/images/union-rmB.png
+    - assets/page-1/images/union-bRo.png
+    - assets/page-1/images/vector-cW1.png
+    - assets/page-1/images/union-GJ9.png
+    - assets/page-1/images/image-6-bg-qCZ.png
+    - assets/page-1/images/union-mj3.png
+    - assets/page-1/images/vector-JAR.png
+    - assets/page-1/images/vector-X9w.png
+    - assets/page-1/images/group-26-pAH.png
+    - assets/page-1/images/union-qRf.png
+    - assets/page-1/images/union-esX.png
+    - assets/page-1/images/vector-SEh.png
+    - assets/page-1/images/vector-H5P.png
+    - assets/page-1/images/vector-5Bb.png
+    - assets/page-1/images/union-2Kf.png
+    - assets/page-1/images/image-6-bg-Hxq.png
+    - assets/page-1/images/union-nAq.png
+    - assets/page-1/images/image-12-RtH.png
+    - assets/page-1/images/group-26-vWR.png
+    - assets/page-1/images/image-6-bg-2Sh.png
+    - assets/page-1/images/union-uk1.png
+    - assets/page-1/images/group-26-ahK.png
+    - assets/page-1/images/union-XpZ.png
+    - assets/page-1/images/union-SfF.png
+    - assets/page-1/images/union-sdw.png
+    - assets/page-1/images/image-6-bg-JaH.png
+    - assets/page-1/images/image-6-bg-Jqs.png
+    - assets/page-1/images/group-21-cCD.png
+    - assets/page-1/images/union-FNM.png
+    - assets/page-1/images/ellipse-40-UNh.png
+    - assets/page-1/images/ellipse-41-LJZ.png
+    - assets/page-1/images/union-qGy.png
+    - assets/page-1/images/union-JF7.png
+    - assets/page-1/images/group-21-aSh.png
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

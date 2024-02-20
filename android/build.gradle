@@ -1,0 +1,62 @@
+
+plugins {
+
+    /**
+     * Use `apply false` in the top-level build.gradle file to add a Gradle
+     * plugin as a build dependency but not apply it to the current (root)
+     * project. Don't use `apply false` in sub-projects. For more information,
+     * see Applying external plugins with same version to subprojects.
+     */
+
+    id 'com.android.application' version '8.2.0' apply false
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android' version '1.9.22' apply false
+    id "com.google.gms.google-services" version '4.3.15' apply false
+}
+
+
+/*
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+ */
+
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.22"
+    implementation platform('com.google.firebase:firebase-bom:32.7.2')
+    implementation("com.google.firebase:firebase-analytics")
+    // Add the dependency for the Firebase Authentication library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-firestore")
+
+    // Also add the dependency for the Google Play services library and specify its version
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+}
+
+
+
+
