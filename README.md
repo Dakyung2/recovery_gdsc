@@ -1,6 +1,9 @@
-# test
+# Recovery App
 
-A new Flutter project.
+Recovery app for GDSC
+
+Ver1.
+recoverybodystore.firebaseapp.com
 
 ## Getting Started
 
