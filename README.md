@@ -3,7 +3,7 @@
 Recovery app for GDSC
 
 Ver1.
-recoverybodystore.firebaseapp.com
+[Demo App](https://recoverybodystore.firebaseapp.com)
 
 ## Getting Started
 
